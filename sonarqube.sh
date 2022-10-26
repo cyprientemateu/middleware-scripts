@@ -27,5 +27,5 @@ cd /opt/sonarqube-9.3.0.51899/bin/linux-x86-64/
 sudo firewall-cmd --permanent --add-port=9000/tcp
 sudo firewall-cmd --reload
  ./sonar.sh start
-echo "This Installation done successfully please get the ip and access your sonarqube on the browser"
+echo "This Installation is done successfully please get the ip and access your sonarqube on the browser"
 
